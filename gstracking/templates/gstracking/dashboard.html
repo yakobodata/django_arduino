@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <head>
+        <title>Twinkles</title>
+        <style>
+            table, th, td {
+                    border: 1px solid black;
+                    border-collapse: collapse;
+                            }
+        </style>
+    </head>
+    <body>
+           <h1>DashBoard</h1>
+                <table style="width: auto;">
+                <tr>
+                    <th>Status</th>
+                    <th>Date</th>
+                </tr>
+
+            {% if context %}
+                {% for data in context %}
+                <tr>
+           
+                    <td>{{ data.status }}</td>
+                    <td>{{ data.pub_date }}</td>
+                </tr>
+            
+                    
+                {% endfor %}
+                </table>
+            {% else %}
+                <strong>No Movement registered yet</strong>
+            {% endif %}
+       <hr/>
+       <div>
+        <a href="{% url 'index' %}">Home</a><br/>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+Connecting Arduino Uno Board to PC without Ethernet Shield Using Python
+
+I managed to connect python to Arduino uno board .I used
+Arduino IDE - to load the C++ code on to the Arduino board
+Studio Code IDE - to program the board in python
+Pyserial module - to communicate with the Arduino board in python
+Pandas module - to analyse the data from the arduino board.
+mysql-connector - to connect the python program to a mysql server
+mysql xampp-server - to store the data from the Arduino
+matplotlib module - to plot a graph off the data from the arduino board
+Pomodoro technique - to time myself
+#data
+#mysql #cloud #datascience #machinelearning #pandas #bigdata #deeplearning #python #cloudcomputing #microsoft #codeweek #codeisopen #codeismylife #Arduino #lorawan #iotdiscovery #C++ #tinkertogether #technologylover #technologyindustry
